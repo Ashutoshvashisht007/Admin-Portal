@@ -1,0 +1,33 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+.navbarwrapper{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+}
+
+.search{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
