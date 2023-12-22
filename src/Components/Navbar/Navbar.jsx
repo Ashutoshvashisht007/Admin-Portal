@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Navbar.css"
-import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import { IoMdNotificationsOutline } from "react-icons/io";
+import { MdOutlineLanguage } from "react-icons/md";
+import { CiSettings } from "react-icons/ci";
 
 export const Navbar = () => {
   return (
@@ -13,8 +15,21 @@ export const Navbar = () => {
              
             <div className="navright">
                 <div className="iconsContainer">
-                    <NotificationsNoneIcon/>
+                    <IoMdNotificationsOutline className='icons'/>
+                    <span className="topBadge">
+                        2
+                    </span>
                 </div>
+                <div className="iconsContainer">
+                    <MdOutlineLanguage className='icons'/>
+                    <span className="topBadge">
+                        2
+                    </span>
+                </div>
+                <div className="iconsContainer">
+                    <CiSettings className='icons'/>
+                </div>
+                <img src="assets/pic/passport_size.jpg" alt="Ashutosh" className='profile_pic' />
             </div>
         </div>
     </div>
