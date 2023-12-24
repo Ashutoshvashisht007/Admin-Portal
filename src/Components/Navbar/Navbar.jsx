@@ -32,6 +32,7 @@ export const Navbar = () => {
                 <img src="assets/pic/passport_size.jpg" alt="Ashutosh" className='profile_pic' />
             </div>
         </div>
+        <hr className='line'/>
     </div>
   )
 }

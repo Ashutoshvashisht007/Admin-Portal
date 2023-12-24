@@ -73,3 +73,10 @@
     border-radius: 50%;
     cursor: pointer;
 }
+
+.line{
+    border: none;
+    height: 1px;
+    color: #a19e9e;
+    background: #a19e9e;
+}

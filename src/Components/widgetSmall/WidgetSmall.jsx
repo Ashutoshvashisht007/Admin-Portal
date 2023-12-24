@@ -16,7 +16,7 @@ export const WidgetSmall = () => {
                     <span className="widgetSmallUsertitle">Teacher</span>
                 </div>
                 <button className="widgetSmallButton">
-                    <MdVisibility/>
+                    <MdVisibility className="widgetSmallIcon"/>
                     Display
                 </button>
             </li>
@@ -27,7 +27,7 @@ export const WidgetSmall = () => {
                     <span className="widgetSmallUsertitle">Teacher</span>
                 </div>
                 <button className="widgetSmallButton">
-                    <MdVisibility/>
+                    <MdVisibility className="widgetSmallIcon"/>
                     Display
                 </button>
             </li>
@@ -38,7 +38,7 @@ export const WidgetSmall = () => {
                     <span className="widgetSmallUsertitle">Teacher</span>
                 </div>
                 <button className="widgetSmallButton">
-                    <MdVisibility/>
+                    <MdVisibility className="widgetSmallIcon"/>
                     Display
                 </button>
             </li>

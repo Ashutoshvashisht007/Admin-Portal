@@ -49,10 +49,9 @@
 .widgetSmallButton{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    height: 50px;
-    width: 80px;
+    justify-content: space-ev enly;
     border-radius: 50px;
+    padding: 10px;
     border-style: none;
     background-color: antiquewhite;
     cursor: pointer;
@@ -60,4 +59,8 @@
 
 .widgetSmallButton:hover{
     background-color: azure;
+}
+
+.widgetSmallIcon{
+    margin-right: 5px;
 }

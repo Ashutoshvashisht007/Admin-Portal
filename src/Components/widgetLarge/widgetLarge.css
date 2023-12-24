@@ -6,3 +6,20 @@
     padding: 20px;
     margin-left: 15px;
 }
+
+.widgetLargeTd{
+    display: flex;
+    align-items: center;
+}
+
+.widgetLargeImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+.widgetLargeDate{
+    margin-left: 5px;
+}
