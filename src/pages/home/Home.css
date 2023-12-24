@@ -1,3 +1,9 @@
 .home{
     flex:  4;
 }
+
+.homeWidget{
+    display: flex;
+    align-items: center;
+    margin: 30px 20px 20px 20px
+}
