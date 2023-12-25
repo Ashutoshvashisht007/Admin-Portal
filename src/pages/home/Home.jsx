@@ -2,7 +2,7 @@ import React from 'react'
 import "./Home.css"
 import { FeaturedInfo } from '../../Components/featuredinfo/Featuredinfo'
 import { Chart } from '../../Components/chart/Chart'
-import {userData} from '../../dummyData.js'
+import {userData} from '../../dummyData'
 import { WidgetSmall } from '../../Components/widgetSmall/WidgetSmall.jsx'
 import { WidgetLarge } from '../../Components/widgetLarge/WidgetLarge.jsx'
 

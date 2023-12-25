@@ -42,6 +42,17 @@ export const WidgetSmall = () => {
                     Display
                 </button>
             </li>
+            <li className="widgetSmallListItem">
+                <img src="assets/pic/Users.jpg" alt="" className="userProfile" />
+                <div className="widgetSmallUser">
+                    <span className="widgetSmallUsername">Hina Sharma</span>
+                    <span className="widgetSmallUsertitle">Teacher</span>
+                </div>
+                <button className="widgetSmallButton">
+                    <MdVisibility className="widgetSmallIcon"/>
+                    Display
+                </button>
+            </li>
         </ul>
     </div>
   )
