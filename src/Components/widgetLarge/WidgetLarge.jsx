@@ -1,5 +1,6 @@
 import React from 'react'
 import "./widgetLarge.css"
+import passportpic from "../../../assets/pic/passport_size.jpg"
 
 
 export const WidgetLarge = () => {
@@ -30,7 +31,7 @@ export const WidgetLarge = () => {
         </tr>
         <tr className="widgetLargeRow">
           <td className="widgetLargeTd">
-            <img src="assets/pic/passport_size.jpg" alt="Profile Pic" className="widgetLargeImage" />
+            <img src={passportpic} alt="Profile Pic" className="widgetLargeImage" />
             <span className="widgetLargeName">Ashutosh Anand Sharma</span>
           </td>
           <td className="widgetLargeDate">24 Dec 2023</td>
@@ -39,7 +40,7 @@ export const WidgetLarge = () => {
         </tr>
         <tr className="widgetLargeRow">
           <td className="widgetLargeTd">
-            <img src="assets/pic/passport_size.jpg" alt="Profile Pic" className="widgetLargeImage" />
+            <img src={passportpic} alt="Profile Pic" className="widgetLargeImage" />
             <span className="widgetLargeName">Ashutosh Anand Sharma</span>
           </td>
           <td className="widgetLargeDate">24 Dec 2023</td>
@@ -48,7 +49,7 @@ export const WidgetLarge = () => {
         </tr>
         <tr className="widgetLargeRow">
           <td className="widgetLargeTd">
-            <img src="assets/pic/passport_size.jpg" alt="Profile Pic" className="widgetLargeImage" />
+            <img src={passportpic} alt="Profile Pic" className="widgetLargeImage" />
             <span className="widgetLargeName">Ashutosh Anand Sharma</span>
           </td>
           <td className="widgetLargeDate">24 Dec 2023</td>
@@ -57,7 +58,7 @@ export const WidgetLarge = () => {
         </tr>
         <tr className="widgetLargeRow">
           <td className="widgetLargeTd">
-            <img src="assets/pic/passport_size.jpg" alt="Profile Pic" className="widgetLargeImage" />
+            <img src={passportpic} alt="Profile Pic" className="widgetLargeImage" />
             <span className="widgetLargeName">Ashutosh Anand Sharma</span>
           </td>
           <td className="widgetLargeDate">24 Dec 2023</td>

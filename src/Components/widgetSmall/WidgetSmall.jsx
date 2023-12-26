@@ -1,6 +1,7 @@
 import React from 'react'
 import "./widgetSmall.css"
 import { MdVisibility } from "react-icons/md";
+import userspic from "../../../assets/pic/Users.jpg"
 
 export const WidgetSmall = () => {
   return (
@@ -10,7 +11,7 @@ export const WidgetSmall = () => {
         </span>
         <ul className="widgetSmallList">
             <li className="widgetSmallListItem">
-                <img src="assets/pic/Users.jpg" alt="" className="userProfile" />
+                <img src={userspic} alt="" className="userProfile" />
                 <div className="widgetSmallUser">
                     <span className="widgetSmallUsername">Hina Sharma</span>
                     <span className="widgetSmallUsertitle">Teacher</span>
@@ -21,7 +22,7 @@ export const WidgetSmall = () => {
                 </button>
             </li>
             <li className="widgetSmallListItem">
-                <img src="assets/pic/Users.jpg" alt="" className="userProfile" />
+                <img src={userspic} alt="" className="userProfile" />
                 <div className="widgetSmallUser">
                     <span className="widgetSmallUsername">Hina Sharma</span>
                     <span className="widgetSmallUsertitle">Teacher</span>
@@ -32,7 +33,7 @@ export const WidgetSmall = () => {
                 </button>
             </li>
             <li className="widgetSmallListItem">
-                <img src="assets/pic/Users.jpg" alt="" className="userProfile" />
+                <img src={userspic} alt="" className="userProfile" />
                 <div className="widgetSmallUser">
                     <span className="widgetSmallUsername">Hina Sharma</span>
                     <span className="widgetSmallUsertitle">Teacher</span>
@@ -43,7 +44,7 @@ export const WidgetSmall = () => {
                 </button>
             </li>
             <li className="widgetSmallListItem">
-                <img src="assets/pic/Users.jpg" alt="" className="userProfile" />
+                <img src={userspic} alt="" className="userProfile" />
                 <div className="widgetSmallUser">
                     <span className="widgetSmallUsername">Hina Sharma</span>
                     <span className="widgetSmallUsertitle">Teacher</span>

@@ -1,3 +1,5 @@
+// import userpic from "../assets/pic/Users.jpg"
+
 export const userData = [
         {
           name: 'Jan',

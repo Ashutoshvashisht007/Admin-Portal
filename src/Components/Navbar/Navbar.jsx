@@ -3,6 +3,7 @@ import "./Navbar.css"
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { MdOutlineLanguage } from "react-icons/md";
 import { CiSettings } from "react-icons/ci";
+import passportsize from "../../../assets/pic/passport_size.jpg"
 
 export const Navbar = () => {
   return (
@@ -29,7 +30,7 @@ export const Navbar = () => {
                 <div className="iconsContainer">
                     <CiSettings className='icons'/>
                 </div>
-                <img src="assets/pic/passport_size.jpg" alt="Ashutosh" className='profile_pic' />
+                <img src={passportsize} alt="Ashutosh" className='profile_pic' />
             </div>
         </div>
         <hr className='line'/>
