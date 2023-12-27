@@ -6,15 +6,19 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import Filter9PlusIcon from '@mui/icons-material/Filter9Plus';
 import EmailIcon from '@mui/icons-material/Email';
 import HomeIcon from '@mui/icons-material/Home';
+import PublishIcon from '@mui/icons-material/Publish';
+import { Link } from 'react-router-dom';
 
 export const User = () => {
   return (
     <div className='user'>
         <div className="userTitleContainer">
             <h1 className='userTitle'>Edit User</h1>
-            <button className="userButton">
-                Create
-            </button>
+            <Link to="/newUser" style={{ textDecoration: "none", color: "inherit" }}>
+                <button className="userButton">
+                    Create
+                </button>
+            </Link>
         </div>
         <div className="userContainer">
             <div className="userShow">
@@ -97,7 +101,14 @@ export const User = () => {
                             className="userUpdateInput" />
                         </div>
                     </div>
-                    <div className="userUpdateRight"></div>
+                    <div className="userUpdateRight">
+                        <div className="userUpdateUpload">
+                            <img src={passportSize} alt="User Profile" className="userUpdateRightimg" />
+                            <label htmlFor="file" style={{cursor: "pointer", fontSize:"30px"}}><PublishIcon/></label>
+                            <input type="file" id='file' style={{display: "none"}}/>
+                        </div>
+                    <button className="userUpdateButton">Update</button>
+                    </div>
                 </form>
             </div>
         </div>
