@@ -5,6 +5,7 @@ import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import Filter9PlusIcon from '@mui/icons-material/Filter9Plus';
 import EmailIcon from '@mui/icons-material/Email';
+import HomeIcon from '@mui/icons-material/Home';
 
 export const User = () => {
   return (
@@ -55,11 +56,49 @@ export const User = () => {
                             ashutosh@gmail.com
                         </span>
                     </div>
+                    <div className="userShowBottomContainer">
+                        <HomeIcon className="userShowBottomIcon"/>
+                        <span className="userShowInfoTitle">
+                            Ropar | Punjab
+                        </span>
+                    </div>
                     
                 </div>
             </div>
             <div className="userUpdate">
-
+                <h3 className="userUpdateTitle">
+                    Edit
+                </h3>
+                <form action="" className="userUpdateForm">
+                    <div className="userUpdateLeft">
+                        <div className="userUpdateItem">
+                            <label>Username</label>
+                            <input type="text" placeholder='ashutosh007'
+                            className="userUpdateInput" />
+                        </div>
+                        <div className="userUpdateItem">
+                            <label>FullName</label>
+                            <input type="text" placeholder='Ashutosh Anand Sharma'
+                            className="userUpdateInput" />
+                        </div>
+                        <div className="userUpdateItem">
+                            <label>Email</label>
+                            <input type="text" placeholder='ashutosh@gmail.com'
+                            className="userUpdateInput" />
+                        </div>
+                        <div className="userUpdateItem">
+                            <label>Phone NUmebr</label>
+                            <input type="text" placeholder='+91 1111111111'
+                            className="userUpdateInput" />
+                        </div>
+                        <div className="userUpdateItem">
+                            <label>Address</label>
+                            <input type="text" placeholder='Ropar | Punjab'
+                            className="userUpdateInput" />
+                        </div>
+                    </div>
+                    <div className="userUpdateRight"></div>
+                </form>
             </div>
         </div>
     </div>
