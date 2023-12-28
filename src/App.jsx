@@ -11,6 +11,8 @@ import {
 import { UserList } from './pages/userList/UserList.jsx'
 import { User } from './pages/user/User.jsx'
 import { NewUser } from './pages/newUser/NewUser.jsx'
+import { Products } from './pages/products/Products.jsx'
+import { EditProduct } from './pages/editproduct/EditProduct.jsx'
 
 function App(){
   return (
@@ -25,6 +27,9 @@ function App(){
               <Route path="users" element={<UserList/>}/>
               <Route path="user/:userId" element={<User/>}/>
               <Route path="newUser" element={<NewUser/>}/>
+              <Route path="products" element={<Products/>}/>
+              <Route path="products/:productId" element={<EditProduct/>}/>
+              <Route path="newProduct" element={<NewUser/>}/>
             </Route>
           </Routes>
         </div>

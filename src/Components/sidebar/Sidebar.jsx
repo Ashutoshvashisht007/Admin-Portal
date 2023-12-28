@@ -43,10 +43,12 @@ export const Sidebar = () => {
                             Users
                         </li>
                     </Link>
-                    <li className='sideBarListItem'>
-                        <MdOutlineProductionQuantityLimits className='sidebarIcons'/>
-                        Products
-                    </li>
+                    <Link to="/products" style={{ textDecoration: "none", color: "inherit" }}>
+                        <li className='sideBarListItem'>
+                            <MdOutlineProductionQuantityLimits className='sidebarIcons'/>
+                            Products
+                        </li>
+                    </Link>
                     <li className='sideBarListItem'>
                         <FaDollarSign className='sidebarIcons'/>
                         Transactions

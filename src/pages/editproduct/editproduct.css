@@ -1,0 +1,126 @@
+.editProduct{
+    flex: 4;
+}
+
+.editProductHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.editProductButton{
+    width: 100px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: antiquewhite;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.editProductContainer{
+    display: flex;
+    align-items: center;
+}
+
+.editProductleftContainer,.editProductrightContainer{
+    flex: 1;
+}
+
+.editProductrightContainer{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.48);
+    border-radius: 15px;
+}
+
+.productInfor{
+    display: flex;
+    align-items: center;
+}
+
+.editProductImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.editProductTitle{
+    margin-left: 15px;
+}
+
+/* .productInfoBottom{
+    margin-top: 5px;
+} */
+
+.produtInfoKey{
+    font-weight: bold;
+}
+
+.productInfoValue{
+    margin-left: 10px;
+}
+
+.editPorductBottomContainer{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.48);
+    border-radius: 15px;
+}
+
+.BottomForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.BottomFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.BottomFormLeft>label{
+    font-weight: bold;
+    margin: 10px;
+}
+.BottomFormLeft>select{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.BottomFormInput{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #555 ;
+}
+
+.BottomFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.BottomDetailes{
+    display: flex;
+    align-items: center;
+}
+
+.BottomDetailsIMG{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.BottomFormButton{
+    background-color: darkblue;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}

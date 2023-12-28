@@ -52,6 +52,21 @@ export const userData = [
         
       ];
 
+      export const productData = [
+        {
+          name: 'Jan',
+          "Active Users": 4000,
+        },
+        {
+          name: 'Feb',
+          "Active Users": 5000,
+        },
+        {
+          name: 'March',
+          "Active Users": 300,
+        },
+      ];
+
 export const userRows = [
         { id: 1, username: 'Snowflake', avatar: 'assets/pic/Users.jpg', email: "snowflake@gmail.com", status: "active", transactions: "$100.00" },
         { id: 2, username: 'Snowflake', avatar: 'assets/pic/Users.jpg', email: "snowflake@gmail.com", status: "active", transactions: "$100.00" },
@@ -60,4 +75,89 @@ export const userRows = [
         { id: 5, username: 'Snowflake', avatar: 'assets/pic/Users.jpg', email: "snowflake@gmail.com", status: "active", transactions: "$100.00" },
         { id: 6, username: 'Snowflake', avatar: 'assets/pic/Users.jpg', email: "snowflake@gmail.com", status: "active", transactions: "$100.00" },
         { id: 7, username: 'Snowflake', avatar: 'assets/pic/Users.jpg', email: "snowflake@gmail.com", status: "active", transactions: "$100.00" },
+    ];
+
+
+export const ProductLists = [
+        { 
+          id: 1, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00" 
+        },
+        { 
+          id: 2, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 3, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 4, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 5, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 6, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 7, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 8, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 9, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        { 
+          id: 10, 
+          name: 'iPhone', 
+          avatar: 'assets/pic/Users.jpg',
+          status: "active", 
+          stocks: 123, 
+          price: "$100.00"  
+        },
+        
     ];
